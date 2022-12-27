@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header-box {
+    background-color: #0020F4;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+}
+img {
+    display: inline-block;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 43px;
+}
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: HelveticaNeue;
+}
+ul button {
+    padding: 20px 50px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 32px;
+    margin-left: 36px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    font-size: 16px;
+}
+.header-bar ul {
+    display: inline-block;
+    margin-left: 150px;
+}
+.header-bar {
+    margin-top: 27px;
+    margin-left: calc(100%/8);
+    height: 91px;
+}
+.skyhouse-logo {
+    display: inline-block;
+    margin-top: 13px;
+}
+.photo11 {
+    position: relative;
+}
+.photo1 {
+    width: 800px;
+    margin-left: 262px;
+    /* position: absolute; */
+    margin-top: -100px;
+}
+h3 {
+    margin-top: 30px;
+    margin-left: 262px;
+    color: #171717;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+}
+.building-images-wrapper {
+    margin-left: 262px;
+}
+.building-image {
+    margin-top: 60px;
+    width: 150px;
+}
+.building-image:nth-child(2), 
+.building-image:nth-child(3), 
+.building-image:nth-child(4), 
+.building-image:nth-child(5) {
+    margin-left: 10px;
+}
+section {
+    background-color: #FFFFFF;
+}
+p {
+    width: 650px;
+    margin-left: 350px;
+    color: #171717;
+    font-family: HelveticaNeue;
+    opacity: 1;
+    font-size: 16px;
+    letter-spacing: 0px;
+    margin-top: 18px;
+}
+p:first-child {
+    margin-top: 60px;
+}
+section button {
+    background-color: #0A22F4;
+    padding: 18px 24px;
+    border: none;
+    border-radius: 32px;
+    color: #FFFFFF;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    margin-top: 76px;
+    margin-left: 550px;
+}
