@@ -37,26 +37,33 @@ ul button {
     display: inline-block;
     margin-left: 150px;
 }
+.header-bar nav {
+    display: inline-block;
+}
 .header-bar {
+    background-color: #0020F4;
+    position: fixed;
+    z-index: 1;
     margin-top: 27px;
     margin-left: calc(100%/8);
-    height: 91px;
 }
 .skyhouse-logo {
     display: inline-block;
     margin-top: 13px;
 }
-.photo11 {
-    position: relative;
-}
-.photo1 {
+.relative {
     width: 800px;
+    position: relative;
     margin-left: 262px;
-    /* position: absolute; */
+    height: 300px;
+}
+.rectangle-photo {
+    width: 100%;
+    position: absolute;
     margin-top: -100px;
 }
 h3 {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 262px;
     color: #171717;
     font-family: HelveticaNeue;
@@ -93,12 +100,12 @@ p:first-child {
 }
 section button {
     background-color: #0A22F4;
-    padding: 18px 24px;
+    padding: 18px 70px;
     border: none;
     border-radius: 32px;
     color: #FFFFFF;
     font-family: HelveticaNeue;
     font-size: 16px;
     margin-top: 76px;
-    margin-left: 550px;
+    margin-left: 500px;
 }
